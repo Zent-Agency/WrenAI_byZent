@@ -79,7 +79,10 @@ services:
       - wren
 
   wren-ui:
-    image: ghcr.io/canner/wren-ui:${WREN_UI_VERSION}
+    image: wren-ui:local
+    build:
+      context: ../wren-ui
+      dockerfile: Dockerfile
     restart: on-failure
     platform: ${PLATFORM}
     environment:

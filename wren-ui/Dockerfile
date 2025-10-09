@@ -1,7 +1,8 @@
 FROM node:18-bookworm-slim AS base
 
 # Install required packages
-RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
+# Add dos2unix to normalize CRLF -> LF when building on Windows hosts
+RUN apt-get update && apt-get install -y curl dos2unix && rm -rf /var/lib/apt/lists/*
 
 # Next.js collects completely anonymous telemetry data about general usage.
 # Learn more here: https://nextjs.org/telemetry
@@ -35,6 +36,10 @@ COPY .eslintignore ./
 COPY .prettierrc ./
 COPY next.config.js ./
 COPY tsconfig.json ./
+
+# Normalize line endings to LF to avoid Prettier errors when sources
+# come from Windows hosts with CRLF newlines
+RUN find . -type f \( -name "*.ts" -o -name "*.tsx" -o -name "*.js" -o -name "*.json" -o -name "*.css" -o -name "*.less" -o -name "*.graphql" -o -name "*.md" -o -name "*.yaml" -o -name "*.yml" \) -print0 | xargs -0 dos2unix
 
 RUN yarn build
 
