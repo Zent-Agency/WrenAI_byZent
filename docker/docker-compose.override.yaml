@@ -1,0 +1,6 @@
+services:
+  wren-ui:
+    volumes:
+      # Monta las imágenes locales dentro del contenedor de Next.js
+      - ../wren-ui/public/images:/app/public/images:ro
+
