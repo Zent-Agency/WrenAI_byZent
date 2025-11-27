@@ -62,6 +62,8 @@ services:
     volumes:
       - ${PROJECT_DIR}/config.yaml:/app/config.yaml:ro
       - ${PROJECT_DIR}/data:/app/data:ro
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     networks:
       - wren
     depends_on:
@@ -79,10 +81,7 @@ services:
       - wren
 
   wren-ui:
-    image: wren-ui:local
-    build:
-      context: ../wren-ui
-      dockerfile: Dockerfile
+    image: ghcr.io/canner/wren-ui:${WREN_UI_VERSION}
     restart: on-failure
     platform: ${PLATFORM}
     environment:

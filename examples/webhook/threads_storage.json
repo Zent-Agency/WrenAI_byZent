@@ -1,0 +1,50 @@
+{
+  "usuario_test_1764258475": {
+    "thread_id": "be0e6291a3a7a8751946366b654e8990",
+    "project_id": "7",
+    "deploy_id": "707d0c244de6313b67bd9bdb0d0504d70a70fff6",
+    "created_at": "2025-11-27T15:47:55.280939",
+    "messages_count": 3,
+    "last_message": "2025-11-27T15:47:55.416315"
+  },
+  "usuario_test_1764258634": {
+    "thread_id": "87fc48c99abb56e7798c79cb29d181f2",
+    "project_id": "7",
+    "deploy_id": "707d0c244de6313b67bd9bdb0d0504d70a70fff6",
+    "created_at": "2025-11-27T15:50:34.124420",
+    "messages_count": 3,
+    "last_message": "2025-11-27T15:50:34.286060"
+  },
+  "usuario_test_1764258772": {
+    "thread_id": "7686f841a245c973b6a83fb2a6062a55",
+    "project_id": "7",
+    "deploy_id": "707d0c244de6313b67bd9bdb0d0504d70a70fff6",
+    "created_at": "2025-11-27T15:52:52.162300",
+    "messages_count": 3,
+    "last_message": "2025-11-27T15:52:52.302933"
+  },
+  "usuario_test_1764258991": {
+    "thread_id": "53d4b589b94df18008120d1f44029f0d",
+    "project_id": "7",
+    "deploy_id": "707d0c244de6313b67bd9bdb0d0504d70a70fff6",
+    "created_at": "2025-11-27T15:56:31.094199",
+    "messages_count": 3,
+    "last_message": "2025-11-27T15:56:47.221648"
+  },
+  "usuario_test_1764259325": {
+    "thread_id": "766793b32372d8ddf96ebe713c10e112",
+    "project_id": "7",
+    "deploy_id": "707d0c244de6313b67bd9bdb0d0504d70a70fff6",
+    "created_at": "2025-11-27T16:02:05.540361",
+    "messages_count": 3,
+    "last_message": "2025-11-27T16:02:17.670590"
+  },
+  "usuario_test_1764262149": {
+    "thread_id": "6623106e4cb078346b21eba210668e8c",
+    "project_id": "7",
+    "deploy_id": "707d0c244de6313b67bd9bdb0d0504d70a70fff6",
+    "created_at": "2025-11-27T16:49:09.960681",
+    "messages_count": 3,
+    "last_message": "2025-11-27T16:49:22.347968"
+  }
+}

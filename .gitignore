@@ -100,3 +100,5 @@ wren-launcher/main
 .tmp
 
 !wren-ai-service/tools/.env.example
+
+examples/webhook/venv

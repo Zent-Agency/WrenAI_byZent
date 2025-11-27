@@ -1,0 +1,27 @@
+Starting Webhook Server...
+
+    🚀 Servidor Webhook iniciado
+    
+    📍 URL: http://localhost:5000
+    🔗 Webhook: http://localhost:5000/webhook
+    💚 Health: http://localhost:5000/health
+    🧪 Test: http://localhost:5000/webhook/test
+    
+    🤖 WrenAI URL: http://localhost:5555
+    📊 Project ID: 7
+    🚀 Deploy ID:  707d0c244de6313b67bd9bdb0d0504d70a70fff6
+    
+    Para configurar el Project ID:
+    export WREN_PROJECT_ID=tu-project-id
+    
+    
+ * Serving Flask app 'webhook_server'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://148.230.79.95:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 891-059-686
